@@ -24,6 +24,7 @@ Top Interview Algorithm Questions and Answer
 - Validate
 - Events
 - Bubble Sort
+- Selection Sort
 
 
 
