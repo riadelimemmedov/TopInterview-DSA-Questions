@@ -1,3 +1,17 @@
+//!mergeSort
+function mergeSort(arr){
+    if(arr.length == 1){
+        return arr
+    }
+
+    const center = Math.floor(arr.length / 2)
+    const left = arr.slice(0,center)
+    const right = arr.slice(center)
+
+    return merge(mergeSort(left),mergeSort(right))
+}
+
+
 //!merge
 function merge(left,right){
     const results = []
@@ -9,7 +23,7 @@ function merge(left,right){
             results.push(right.shift())
         }
     }
+
     return [...results,...left,...right]
 }
-
-console.log(merge([2,5],[18,20]))//note => define sorted array only
+console.log(mergeSort([22,5,18,4]))

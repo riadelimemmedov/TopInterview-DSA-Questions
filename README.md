@@ -4,7 +4,7 @@ Top Interview Algorithm Questions and Answer
 
 - Anagram
 - Array Chunk
-- Breadth first Search Tree
+- Breadth First Search Tree
 - Circular
 - Fibonacci
 - FizzBuzz
@@ -25,6 +25,7 @@ Top Interview Algorithm Questions and Answer
 - Events
 - Bubble Sort
 - Selection Sort
+- Merge Sort
 
 
 
