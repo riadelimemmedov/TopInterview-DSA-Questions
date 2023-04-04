@@ -27,7 +27,7 @@ console.log(capitalizeString('hello, jack'))
 
 //!Method 3
 function capitalizeString(str){
-    const words = str.split(" ")
+    const words = str.split(" ")//be careful here
     for(let i=0;i<words.length;i++){
         words[i] = words[i].charAt(0).toUpperCase()+words[i].slice(1)
     }
